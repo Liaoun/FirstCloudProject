@@ -48,6 +48,8 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
+        <!--        cloud config begin-->
+
     </dependencies>
 
     <build>
