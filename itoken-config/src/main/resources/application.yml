@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: itoken-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Liaoun/IToken.git
+          search-paths: /itoken-config/profies
+          username: 2900798493@qq.com
+          password: lkl1124...
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
