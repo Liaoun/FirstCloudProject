@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/itoken-account-feign/itoken-account-feign.iml" filepath="$PROJECT_DIR$/itoken-account-feign/itoken-account-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-account-provider/itoken-account-provider.iml" filepath="$PROJECT_DIR$/itoken-account-provider/itoken-account-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-admin/itoken-admin.iml" filepath="$PROJECT_DIR$/itoken-admin/itoken-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itoken-config/itoken-config.iml" filepath="$PROJECT_DIR$/itoken-config/itoken-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" filepath="$PROJECT_DIR$/itoken-dependencies/itoken-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" filepath="$PROJECT_DIR$/itoken-eureka/itoken-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" filepath="$PROJECT_DIR$/itoken-zipkin/itoken-zipkin.iml" />

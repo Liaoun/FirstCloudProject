@@ -12,6 +12,7 @@
         <module name="itoken-admin" />
         <module name="itoken-zuul" />
         <module name="itoken-zipkin" />
+        <module name="itoken-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="itoken-account-feign" target="1.8" />
       <module name="itoken-account-provider" target="1.8" />
       <module name="itoken-admin" target="1.8" />
+      <module name="itoken-config" target="1.8" />
       <module name="itoken-dependencies" target="1.8" />
       <module name="itoken-dependency" target="1.8" />
       <module name="itoken-eureka" target="1.8" />
@@ -32,6 +34,7 @@
       <module name="itoken-account-feign" options="-parameters" />
       <module name="itoken-account-provider" options="-parameters" />
       <module name="itoken-admin" options="-parameters" />
+      <module name="itoken-config" options="-parameters" />
       <module name="itoken-eureka" options="-parameters" />
       <module name="itoken-zipkin" options="-parameters" />
       <module name="itoken-zuul" options="-parameters" />
