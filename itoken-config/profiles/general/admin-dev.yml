@@ -1,14 +1,12 @@
 spring:
   application:
-    name: itoken-eureka
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
+    name: itoken-admin
   zipkin:
     base-url: http://localhost:9411
+
 server:
-  port: 8761
+  port: 8084
+
 management:
   endpoint:
     health:
@@ -18,11 +16,8 @@ management:
       exposure:
         # 注意：此处在视频里是 include: ["health", "info"] 但已无效了，请修改
         include: health,info
+
 eureka:
-  instance:
-    hostname: localhost
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:8761/eureka/
