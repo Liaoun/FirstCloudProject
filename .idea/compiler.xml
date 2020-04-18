@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="itoken-account-feign" />
         <module name="itoken-account-provider" />
+        <module name="itoken-config-beans" />
         <module name="itoken-eureka" />
         <module name="itoken-admin" />
+        <module name="itoken-config-yml" />
         <module name="itoken-zuul" />
         <module name="itoken-zipkin" />
-        <module name="itoken-config" />
+        <module name="itoken-bean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +22,9 @@
       <module name="itoken-account-feign" target="1.8" />
       <module name="itoken-account-provider" target="1.8" />
       <module name="itoken-admin" target="1.8" />
-      <module name="itoken-config" target="1.8" />
+      <module name="itoken-bean" target="1.8" />
+      <module name="itoken-config-beans" target="1.8" />
+      <module name="itoken-config-yml" target="1.8" />
       <module name="itoken-dependencies" target="1.8" />
       <module name="itoken-dependency" target="1.8" />
       <module name="itoken-eureka" target="1.8" />
@@ -34,7 +38,9 @@
       <module name="itoken-account-feign" options="-parameters" />
       <module name="itoken-account-provider" options="-parameters" />
       <module name="itoken-admin" options="-parameters" />
-      <module name="itoken-config" options="-parameters" />
+      <module name="itoken-bean" options="-parameters" />
+      <module name="itoken-config-beans" options="-parameters" />
+      <module name="itoken-config-yml" options="-parameters" />
       <module name="itoken-eureka" options="-parameters" />
       <module name="itoken-zipkin" options="-parameters" />
       <module name="itoken-zuul" options="-parameters" />

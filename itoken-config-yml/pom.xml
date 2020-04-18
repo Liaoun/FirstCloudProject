@@ -10,10 +10,10 @@
         <relativePath>../itoken-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>itoken-config</artifactId>
+    <artifactId>itoken-config-yml</artifactId>
     <packaging>jar</packaging>
 
-    <name>itoken-config</name>
+    <name>itoken-config-yml</name>
 <!--    <url>http://www.funtl.com</url>-->
     <inceptionYear>2020-Now</inceptionYear>
 

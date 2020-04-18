@@ -25,3 +25,8 @@ spring:
       name: account-provider
       label: master
       profile: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/websocket?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1124
+    driver-class-name: com.mysql.jdbc.Driver

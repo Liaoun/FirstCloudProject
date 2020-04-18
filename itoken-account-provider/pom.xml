@@ -60,6 +60,32 @@
             <artifactId>spring-cloud-starter-config</artifactId>
             <!--            cloud config end -->
         </dependency>
+
+<!--        mysql group begin-->
+
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+<!--        mysql group end-->
+<!--        custom jar begin-->
+        <dependency>
+            <artifactId>itoken-config-beans</artifactId>
+            <groupId>com.item</groupId>
+        </dependency>
+<!--        custom jar end-->
     </dependencies>
 
     <build>

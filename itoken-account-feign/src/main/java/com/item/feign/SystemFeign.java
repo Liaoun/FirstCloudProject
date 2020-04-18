@@ -1,9 +1,10 @@
 package com.item.feign;
 
+import com.item.property.General;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(value = "ITOKEN-ACCOUNT-PROVIDER")
+@FeignClient(value = General.SERVICE_NAME)
 public interface SystemFeign {
 
     @GetMapping("system/getport")

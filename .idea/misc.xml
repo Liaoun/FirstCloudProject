@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/itoken-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-admin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-config/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-config-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-config-beans/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

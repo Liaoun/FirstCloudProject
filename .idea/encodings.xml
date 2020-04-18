@@ -4,7 +4,8 @@
     <file url="file://$PROJECT_DIR$/itoken-account-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itoken-account-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itoken-admin/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/itoken-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itoken-config-beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itoken-config-yml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itoken-dependencies/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itoken-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itoken-zipkin/src/main/java" charset="UTF-8" />

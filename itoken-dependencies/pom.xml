@@ -28,10 +28,45 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <zipkin.version>2.10.1</zipkin.version>
         <admin.version>2.0.4</admin.version>
+        <mybatis.version>3.5.3</mybatis.version>
+        <mysql.version>8.0.18</mysql.version>
+        <spring-jdbc.version>5.2.4.RELEASE</spring-jdbc.version>
+        <itoken-beans.version>1.0.0-SNAPSHOT</itoken-beans.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+<!--mysql group begin-->
+            <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>${spring-jdbc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.item</groupId>
+                <artifactId>itoken-config-beans</artifactId>
+                <systemPath>../itoken-beans/</systemPath>
+                <version>${itoken-beans.version}</version>
+            </dependency>
+<!--mysql group end-->
+
+
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-client</artifactId>
